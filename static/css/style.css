@@ -214,12 +214,18 @@ p{
     font-size: 16px;
 }
 
+.skills .boxupper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+}
+
 .skills .box
 {
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 0.5fr 1fr;
     justify-content: center;
     align-items: center;
     margin: 10px;
@@ -236,7 +242,7 @@ p{
 .skills .box .percent
 {
     position: relative;
-    width: 100%;
+    width: 50%;
     height: 50%;
     background: #f0f0f0;
 }
